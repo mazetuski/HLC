@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="maze.practica3_1.MainActivity"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón 1"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón 2"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/boton1"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón 3"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/boton2"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón 4"
+        android:layout_toRightOf="@id/boton3"
+        android:layout_weight="1"/>
+</LinearLayout>
