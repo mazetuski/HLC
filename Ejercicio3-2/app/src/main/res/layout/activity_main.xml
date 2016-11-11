@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="maze.ejercicio3_2.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mezquita" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="La Mezquita de Córdoba es una obra arquitectónica cuya tipología es el de una mezquita. De autor desconocido se localiza en Córdoba (España).
+
+Aspectos materiales y técnicos: El edificio consta de piedra, ladrillo, madera y, a nivel decorativo, yeso. La planta de esta mezquita está formado por: el patio de los naranjos, el minarete, la fuente de abluciones, la sala de oración, la quibla y el mihrab.
+
+Análisis formal: Todo el recinto está limitado por un muro de 178 x 125 m. En él sobresalen numerosos contrafuertes acabados en almenas y 19 puertas para entrar. Éstas presentan una tipología de tres cuerpos, uno central de apertura y dos laterales ciegos decorados con arcos de herradura, lobulados y celosías. El minarete, en el muro occidental, se levanta donde posteriormente se alzará un campanario cristiano. En el interior hayamos la sala de oración o haram y el patio de los naranjos. En el patio descubierto o sahn están el minarete, fuentes ritualesy los naranjos alineados con las naves de la haram. A ésta se accede por la s19 puertas que se corresponden a naves que dividen perpendicularmentela sala, con un granbosque de 514 columnas." />
+    </ScrollView>
+
+</LinearLayout>
