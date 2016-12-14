@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tamañoLetraBoton">20dp</dimen>
+    <dimen name="margenMarcadorTop">15dp</dimen>
+    <dimen name="margenSumarBot">5dp</dimen>
+    <dimen name="margenBotones">20dp</dimen>
+    <dimen name="pelotaWidth">55dp</dimen>
+    <dimen name="pelotaHeight">55dp</dimen>
+    <dimen name="marcadorWidth">210dp</dimen>
+    <dimen name="marcadorHeigth">150dp</dimen>
+    <dimen name="textoEquipo">30dp</dimen>
+    <dimen name="textoResultado">55dp</dimen>
+</resources>

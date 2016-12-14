@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="maze.proyecto1marcador.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1">
+
+    <RelativeLayout
+        android:id="@+id/parteIzq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="@dimen/marcadorWidth"
+            android:layout_height="@dimen/marcadorHeigth"
+            android:background="@drawable/marcador"/>
+
+        <TextView
+            android:id="@+id/textoLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="LOCAL"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"
+            android:textSize="@dimen/textoEquipo" />
+
+        <TextView
+            android:id="@+id/marcadorLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="0"
+            android:textSize="@dimen/textoResultado"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/textoLocal"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/menosUnoLocal"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/textoLocal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_toLeftOf="@id/marcadorLocal"
+            android:text="-1"
+            android:textSize="@dimen/tamañoLetraBoton" />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margenSumarBot">
+
+            <Button
+                android:id="@+id/masUnoLocal"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:background="@drawable/pelota1izq" />
+
+            <Button
+                android:id="@+id/masDosLocal"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:layout_marginLeft="@dimen/margenBotones"
+                android:background="@drawable/pelota2izq" />
+
+            <Button
+                android:id="@+id/masTresLocal"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:layout_marginLeft="@dimen/margenBotones"
+                android:background="@drawable/pelota3izq" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/parteDer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="@dimen/marcadorWidth"
+                android:layout_height="@dimen/marcadorHeigth"
+                android:background="@drawable/marcador"/>
+
+            <TextView
+                android:id="@+id/textoVisitante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VISITANTE"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/textoEquipo" />
+
+            <TextView
+                android:id="@+id/marcadorVisitante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textoVisitante"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margenMarcadorTop"
+                android:text="0"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/textoResultado" />
+
+            <Button
+                android:id="@+id/menosUnoVisitante"
+                android:layout_width="50dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/textoVisitante"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:layout_toRightOf="@id/marcadorVisitante"
+                android:text="-1"
+                android:textSize="@dimen/tamañoLetraBoton" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margenSumarBot">
+
+            <Button
+                android:id="@+id/masTresVisitante"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:layout_marginRight="@dimen/margenBotones"
+                android:background="@drawable/pelota3" />
+
+            <Button
+                android:id="@+id/masDosVisitante"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:layout_marginRight="@dimen/margenBotones"
+                android:background="@drawable/pelota2" />
+
+            <Button
+                android:id="@+id/masUnoVisitante"
+                android:layout_width="@dimen/pelotaWidth"
+                android:layout_height="@dimen/pelotaHeight"
+                android:background="@drawable/pelota1" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
