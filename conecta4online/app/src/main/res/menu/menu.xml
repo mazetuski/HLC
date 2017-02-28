@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/acercaDe"
+        android:title="Acerca De" />
+
+    <item
+        android:id="@+id/enviarMensaje"
+        android:title="Enviar Mensaje" />
+
+    <item
+        android:id="@+id/ajustes"
+        android:title="Ajustes"/>
+</menu>

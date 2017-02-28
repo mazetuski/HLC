@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Datos Personales">
+        <EditTextPreference android:title="Nombre del jugador"
+            android:summary="Toque para cambiar el nombre del jugador"/>
+    </PreferenceCategory>
+
+<PreferenceCategory android:title="Ajustes del juego">
+    <CheckBoxPreference
+        android:key="music"
+        android:title="Musica de fondo"
+        android:summary="Marque si desea escuchar música"/>
+
+    <ListPreference
+        android:key="turnoPreference"
+        android:title="Seleccionar quién empieza"
+        android:entries="@array/Turno"
+        android:entryValues="@array/TurnoAlias"
+        android:summary="Elegir si emìeza Jugador/Máquina"/>
+
+</PreferenceCategory>
+</PreferenceScreen>

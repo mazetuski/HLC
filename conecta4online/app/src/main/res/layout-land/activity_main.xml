@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="maze.conecta4.MainActivity">
+
+    <!-- Fila 0 -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/circ00"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ01"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ02"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ03"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ04"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ05"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ06"
+            style="@style/circuloLand" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!-- Fila 1 -->
+
+        <ImageButton
+            android:id="@+id/circ10"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ11"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ12"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ13"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ14"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ15"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ16"
+            style="@style/circuloLand" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!-- Fila 2 -->
+
+        <ImageButton
+            android:id="@+id/circ20"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ21"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ22"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ23"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ24"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ25"
+            style="@style/circuloLand"/>
+
+        <ImageButton
+            android:id="@+id/circ26"
+            style="@style/circuloLand" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!-- Fila 3 -->
+
+        <ImageButton
+            android:id="@+id/circ30"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ31"
+            style="@style/circuloLand"/>
+
+        <ImageButton
+            android:id="@+id/circ32"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ33"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ34"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ35"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ36"
+            style="@style/circuloLand" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!-- Fila 4 -->
+
+        <ImageButton
+            android:id="@+id/circ40"
+            style="@style/circuloLand"/>
+
+        <ImageButton
+            android:id="@+id/circ41"
+            style="@style/circuloLand"/>
+
+        <ImageButton
+            android:id="@+id/circ42"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ43"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ44"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ45"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ46"
+            style="@style/circuloLand"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!-- Fila 5 -->
+
+        <ImageButton
+            android:id="@+id/circ50"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ51"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ52"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ53"
+            style="@style/circuloLand"/>
+
+        <ImageButton
+            android:id="@+id/circ54"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ55"
+            style="@style/circuloLand" />
+
+        <ImageButton
+            android:id="@+id/circ56"
+            style="@style/circuloLand" />
+    </TableRow>
+
+</TableLayout>
